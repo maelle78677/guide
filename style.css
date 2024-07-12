@@ -1,0 +1,49 @@
+p {
+	color: darkred;
+}
+body {
+	background-color: black;
+}
+h1 {
+	color: white;
+	text-align: center;
+}
+td {
+background-color: red;
+}
+.titre {
+background: url("image/japon.jpg");
+background-size: cover;
+width: 100%;
+position: absolute;
+height: 120vh;
+z-index: -100;
+
+}
+nav {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	width: 100%;
+	padding: 30px 0 10px;
+}
+nav ul{
+	flex: 1;
+	display: flex;
+	justify-content: flex-end;
+	padding-right: 40px;
+}
+nav ul li a {
+list-style: none;
+margin-left: 20px;
+text-decoration: none;
+color: #fff;
+font-size: 1.2rem;
+border: 1px solid black;
+transition: color 0.3s;
+padding: 10px 20px;
+background-color: black;
+}
+nav ul li a:hover {
+	color: #2eb0f0;
+}
